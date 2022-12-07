@@ -9,3 +9,75 @@
 body {
   font-family: 'Roboto';
 }
+
+header {
+  background-color: #1f2937;
+  min-height: 60vh;
+  padding: 20px 150px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+h1 + p {
+  color: #f9faf8;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.main_header_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.links a {
+  margin: 0 18px;
+}
+
+a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+.hero_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.left {
+  max-width: 40%;
+}
+
+.right {
+  max-width: 50%;
+}
+
+.sign_up_btn {
+  background-color: rgb(56, 130, 246);
+  border-radius: 4px;
+  padding: 5px 20px;
+}
+
+.sign_up_btn:hover {
+  background-color: rgba(56, 130, 246, 0.7);
+}
+
+.placeholder_img {
+  background-color: #999;
+  color: #fff;
+  width: 375px;
+  height: 150px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
