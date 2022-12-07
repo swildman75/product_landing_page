@@ -10,15 +10,22 @@ body {
   font-family: 'Roboto';
 }
 
-header {
-  background-color: #1f2937;
-  min-height: 60vh;
-  padding: 20px 150px;
+a {
+  color: #f9faf8;
+  text-decoration: none;
 }
 
 h1 {
   font-size: 48px;
   color: #f9faf8;
+}
+
+/* HEADER & HERO SECTION */
+
+header {
+  background-color: #1f2937;
+  min-height: 60vh;
+  padding: 20px 150px;
 }
 
 h1 + p {
@@ -39,11 +46,6 @@ h1 + p {
 
 .links a {
   margin: 0 18px;
-}
-
-a {
-  color: #f9faf8;
-  text-decoration: none;
 }
 
 .hero_container {
@@ -80,4 +82,43 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* INFO SECTION */
+.info_section h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding-top: 18px;
+  margin: 0 150px;
+}
+
+.info_cards_container {
+  display: flex;
+  padding: 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.info_card {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.placeholder_box {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 8px;
+}
+
+.placeholder_box + p {
+  margin-top: 18px;
+  max-width: 150px;
 }
