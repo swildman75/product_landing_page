@@ -145,3 +145,28 @@ h1 + p {
   font-weight: 900;
   margin-left: 600px;
 }
+
+/* CTA SECTION */
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.cta_info_box {
+  background-color: #3882f6;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  border-radius: 8px;
+  color: #f9faf8;
+}
+
+.cta_btn {
+  border: 3px solid #f9faf8;
+  border-radius: 6px;
+  padding: 8px 24px;
+}
