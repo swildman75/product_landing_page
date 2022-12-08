@@ -122,3 +122,26 @@ h1 + p {
   margin-top: 18px;
   max-width: 150px;
 }
+
+/* QUOTE SECTION */
+.quote_section {
+  height: 50vh;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote_section p {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  max-width: 65%;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: 900;
+  margin-left: 600px;
+}
