@@ -170,3 +170,13 @@ h1 + p {
   border-radius: 6px;
   padding: 8px 24px;
 }
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
